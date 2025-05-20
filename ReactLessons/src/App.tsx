@@ -1,11 +1,14 @@
 import React from 'react'
+import NavBar from './components/NavBar/Navbar/NavBar'
 
 function App() {
   return (
     <div>
-      <h1>Boris Isac</h1>
+      <div className="NavBar">
+        <NavBar />
+      </div>
     </div>
-  )
+  );
 }
 
 export default App
